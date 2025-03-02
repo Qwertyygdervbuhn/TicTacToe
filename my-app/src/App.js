@@ -20,7 +20,6 @@ function TicTacToe() {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h2>Крестики-нолики</h2>
       <div style={{ display: "grid", gridTemplateColumns: "100px 100px 100px", gap: "5px" }}>
         {board.map((cell, index) => (
           <button
