@@ -6,7 +6,7 @@ function TicTacToe() {
 
   function handleClick(index) {
     if (board[index] === "") {
-      let newBoard = [...board];
+      let newBoard = [board];
       newBoard[index] = turn;
       setBoard(newBoard);
       setTurn(turn === "X" ? "O" : "X");
